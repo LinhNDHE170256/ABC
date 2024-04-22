@@ -1,0 +1,193 @@
+{
+  "products": [
+    {
+      "id": "P001",
+      "Name": "Television Honda",
+      "Price": "100$",
+      "CatID": 1,
+      "quantity": 10,
+      "createDate": "2022-11-12",
+      "status": true,
+      "image": "/assets/event-5.jpg"
+    },
+    {
+      "id": "P002",
+      "Name": "Television LG",
+      "Price": "800$",
+      "CatID": 2,
+      "quantity": 10,
+      "createDate": "2020-04-04",
+      "status": true,
+      "image": "/assets/event-6.jpg"
+    },
+    {
+      "id": "P003",
+      "Name": "Olala",
+      "Price": "1000$",
+      "CatID": 3,
+      "quantity": 100,
+      "createDate": "2018-12-01",
+      "status": true,
+      "image": "/assets/event-7.jpg"
+    },
+    {
+      "id": "P004",
+      "Name": "Linh",
+      "Price": "100000000$",
+      "CatID": 3,
+      "quantity": 1,
+      "createDate": "2018-12-01",
+      "status": true,
+      "image": "/assets/event-8.jpg"
+    },
+    {
+      "id": "P005",
+      "Name": "Phi",
+      "Price": "1$",
+      "CatID": 2,
+      "quantity": 1,
+      "createDate": "2020-04-04",
+      "status": true,
+      "image": "/assets/menu-01.jpg"
+    },
+    {
+      "id": "P006",
+      "Name": "Linh 2",
+      "Price": "11111111$",
+      "quantity": 1,
+      "createDate": "2024-04-13",
+      "CatID": 3,
+      "status": true,
+      "image": "/assets/menu-02.jpg"
+    },
+    {
+      "id": "P007",
+      "Name": "ko bt",
+      "Price": "1222$",
+      "quantity": 12,
+      "createDate": "2024-05-07",
+      "CatID": 1,
+      "status": true,
+      "image": "/assets/menu-03.jpg"
+    },
+    {
+      "id": "P008",
+      "Name": "Phi 2",
+      "Price": "2$",
+      "CatID": 1,
+      "quantity": 112345,
+      "createDate": "2024-05-07",
+      "status": true,
+      "image": "/assets/menu-04.jpg"
+    },
+    {
+      "id": "P009",
+      "Name": "Phi 4",
+      "Price": "4$",
+      "CatID": "1",
+      "quantity": "112345",
+      "status": true,
+      "createDate": "2024-05-07",
+      "image": "/assets/menu-04.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "catName": "thiết bị gia dụng"
+    },
+    {
+      "id": "2",
+      "catName": "điên tử điện lạnh"
+    },
+    {
+      "id": "3",
+      "catName": "olala"
+    },
+    {
+      "id": "4",
+      "catName": "ko có"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "fullName": "Admin",
+      "gender": "male",
+      "dob": "2000-01-01",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "email": "olala1@gmail.com",
+      "password": "123",
+      "fullName": "Linh1",
+      "gender": "male",
+      "dob": "2000-01-01",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "email": "olala2@gmail.com",
+      "password": "123",
+      "fullName": "Linh2",
+      "gender": "male",
+      "dob": "2000-01-01",
+      "role": "user"
+    },
+    {
+      "id": "4",
+      "email": "olala3@gmail.com",
+      "password": "123",
+      "fullName": "Linh3",
+      "gender": "female",
+      "dob": "2000-01-01",
+      "role": "user"
+    },
+    {
+      "id": "2508",
+      "email": "abc@gmail.com",
+      "password": "12345671",
+      "fullName": "Linh4",
+      "gender": "male",
+      "dob": "2024-04-11",
+      "role": "user"
+    },
+    {
+      "id": "d154",
+      "email": "olala5@gmail.com",
+      "password": "12345678",
+      "name": "Linh5",
+      "gender": "male",
+      "dob": "2024-03-31",
+      "role": "user"
+    }
+  ], 
+  "orders": [
+    {
+      "id": "1",
+      "orderDate": "",
+      "status": 1,
+      "userInfo": [
+        {
+          "uId": "1",
+          "fullName": "",
+          "address": "",
+          "moblie": 12345,
+          "email": ""
+        }
+      ],
+      "orderDetail": [
+        {
+          "Pid": "",
+          "pName":"",
+          "Price":"1$",
+          "vat": "8%",
+          "discount": ""
+        }
+      ]
+    }
+  ]
+}
